@@ -64,9 +64,28 @@ void Gpio::cleanup()
 int main()
 {
     Gpio io1;
-    if (io1.start(17, 0)) {
-        io1.setValue(1);  // 设置 GPIO 高电平
-        io1.cleanup();    // 清理资源
+    while(1)
+    {
+        if (io1.start(17, 0)) {
+            io1.setValue(1);  // 设置 GPIO 高电平
+            io1.cleanup();    // 清理资源
+        }
+        sleep(2);
+        if(io1.start(27,0))
+        {
+            io1.setValue(1);  // 设置 GPIO 高电平
+            io1.cleanup();    // 清理资源
+        }
+        sleep(2);
+        if(io1.start(27,0))
+        {
+            io1.setValue(0);  // 设置 GPIO 高电平
+            io1.cleanup();    // 清理资源
+        }
+        sleep(2);
     }
+
+    
+
     return 0;
 }
