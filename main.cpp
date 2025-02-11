@@ -119,11 +119,11 @@ int main()
     if (motor.start(0, 17, 27, 22)) // 连接 GPIO17, 27, 22
     {
         cout << "Moving Forward" << endl;
-        motor.forward(100);
+        motor.forward(1024);
         sleep(2);
 
         cout << "Moving Backward" << endl;
-        motor.backward(100);
+        motor.backward(1024);
         sleep(2);
 
         motor.cleanup();
