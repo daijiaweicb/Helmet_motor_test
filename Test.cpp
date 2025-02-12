@@ -4,7 +4,7 @@
 void Test_motor()
 {
     StepperMotor motor;
-    if (motor.start(0, 17, 27, 22))
+    if (motor.start(0, 17, 27, 22, 5))
     {
         std::cout << "Moving Forward" << std::endl;
         motor.forward(1024);
