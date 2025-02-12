@@ -14,7 +14,7 @@ private:
     int step_delay = 2000; 
 
 public:
-    bool start(int chipNo, int pin1, int pin2, int pin3);
+    bool start(int chipNo, int pin1, int pin2, int pin3, int pin4);
     void forward(int steps);
     void backward(int steps);
     void cleanup();
