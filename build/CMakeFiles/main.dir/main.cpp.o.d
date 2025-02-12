@@ -1,6 +1,6 @@
-CMakeFiles/main.dir/main.cpp.o: /home/zha-yixuan/Helmet_test/main.cpp \
- /usr/include/stdc-predef.h /usr/include/c++/13/iostream \
- /usr/include/c++/13/bits/requires_hosted.h \
+CMakeFiles/main.dir/main.cpp.o: \
+ /home/zha-yixuan/Desktop/Helmet_test/main.cpp /usr/include/stdc-predef.h \
+ /usr/include/c++/13/iostream /usr/include/c++/13/bits/requires_hosted.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h \
  /usr/include/features.h /usr/include/features-time64.h \
@@ -157,5 +157,6 @@ CMakeFiles/main.dir/main.cpp.o: /home/zha-yixuan/Helmet_test/main.cpp \
  /usr/include/x86_64-linux-gnu/bits/getopt_posix.h \
  /usr/include/x86_64-linux-gnu/bits/getopt_core.h \
  /usr/include/x86_64-linux-gnu/bits/unistd_ext.h \
- /usr/include/linux/close_range.h /home/zha-yixuan/Helmet_test/motor.h \
- /home/zha-yixuan/Helmet_test/Test.h
+ /usr/include/linux/close_range.h \
+ /home/zha-yixuan/Desktop/Helmet_test/motor.h \
+ /home/zha-yixuan/Desktop/Helmet_test/Test.h

@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/zha-yixuan/Helmet_test
+CMAKE_SOURCE_DIR = /home/zha-yixuan/Desktop/Helmet_test
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/zha-yixuan/Helmet_test/build
+CMAKE_BINARY_DIR = /home/zha-yixuan/Desktop/Helmet_test/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/main.dir/depend.make
@@ -70,46 +70,46 @@ include CMakeFiles/main.dir/progress.make
 include CMakeFiles/main.dir/flags.make
 
 CMakeFiles/main.dir/main.cpp.o: CMakeFiles/main.dir/flags.make
-CMakeFiles/main.dir/main.cpp.o: /home/zha-yixuan/Helmet_test/main.cpp
+CMakeFiles/main.dir/main.cpp.o: /home/zha-yixuan/Desktop/Helmet_test/main.cpp
 CMakeFiles/main.dir/main.cpp.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/zha-yixuan/Helmet_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/main.dir/main.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/main.cpp.o -MF CMakeFiles/main.dir/main.cpp.o.d -o CMakeFiles/main.dir/main.cpp.o -c /home/zha-yixuan/Helmet_test/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/zha-yixuan/Desktop/Helmet_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/main.dir/main.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/main.cpp.o -MF CMakeFiles/main.dir/main.cpp.o.d -o CMakeFiles/main.dir/main.cpp.o -c /home/zha-yixuan/Desktop/Helmet_test/main.cpp
 
 CMakeFiles/main.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/main.dir/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zha-yixuan/Helmet_test/main.cpp > CMakeFiles/main.dir/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zha-yixuan/Desktop/Helmet_test/main.cpp > CMakeFiles/main.dir/main.cpp.i
 
 CMakeFiles/main.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/main.dir/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zha-yixuan/Helmet_test/main.cpp -o CMakeFiles/main.dir/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zha-yixuan/Desktop/Helmet_test/main.cpp -o CMakeFiles/main.dir/main.cpp.s
 
 CMakeFiles/main.dir/motor.cpp.o: CMakeFiles/main.dir/flags.make
-CMakeFiles/main.dir/motor.cpp.o: /home/zha-yixuan/Helmet_test/motor.cpp
+CMakeFiles/main.dir/motor.cpp.o: /home/zha-yixuan/Desktop/Helmet_test/motor.cpp
 CMakeFiles/main.dir/motor.cpp.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/zha-yixuan/Helmet_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/main.dir/motor.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/motor.cpp.o -MF CMakeFiles/main.dir/motor.cpp.o.d -o CMakeFiles/main.dir/motor.cpp.o -c /home/zha-yixuan/Helmet_test/motor.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/zha-yixuan/Desktop/Helmet_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/main.dir/motor.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/motor.cpp.o -MF CMakeFiles/main.dir/motor.cpp.o.d -o CMakeFiles/main.dir/motor.cpp.o -c /home/zha-yixuan/Desktop/Helmet_test/motor.cpp
 
 CMakeFiles/main.dir/motor.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/main.dir/motor.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zha-yixuan/Helmet_test/motor.cpp > CMakeFiles/main.dir/motor.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zha-yixuan/Desktop/Helmet_test/motor.cpp > CMakeFiles/main.dir/motor.cpp.i
 
 CMakeFiles/main.dir/motor.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/main.dir/motor.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zha-yixuan/Helmet_test/motor.cpp -o CMakeFiles/main.dir/motor.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zha-yixuan/Desktop/Helmet_test/motor.cpp -o CMakeFiles/main.dir/motor.cpp.s
 
 CMakeFiles/main.dir/Test.cpp.o: CMakeFiles/main.dir/flags.make
-CMakeFiles/main.dir/Test.cpp.o: /home/zha-yixuan/Helmet_test/Test.cpp
+CMakeFiles/main.dir/Test.cpp.o: /home/zha-yixuan/Desktop/Helmet_test/Test.cpp
 CMakeFiles/main.dir/Test.cpp.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/zha-yixuan/Helmet_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/main.dir/Test.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/Test.cpp.o -MF CMakeFiles/main.dir/Test.cpp.o.d -o CMakeFiles/main.dir/Test.cpp.o -c /home/zha-yixuan/Helmet_test/Test.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/zha-yixuan/Desktop/Helmet_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/main.dir/Test.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/Test.cpp.o -MF CMakeFiles/main.dir/Test.cpp.o.d -o CMakeFiles/main.dir/Test.cpp.o -c /home/zha-yixuan/Desktop/Helmet_test/Test.cpp
 
 CMakeFiles/main.dir/Test.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/main.dir/Test.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zha-yixuan/Helmet_test/Test.cpp > CMakeFiles/main.dir/Test.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zha-yixuan/Desktop/Helmet_test/Test.cpp > CMakeFiles/main.dir/Test.cpp.i
 
 CMakeFiles/main.dir/Test.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/main.dir/Test.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zha-yixuan/Helmet_test/Test.cpp -o CMakeFiles/main.dir/Test.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zha-yixuan/Desktop/Helmet_test/Test.cpp -o CMakeFiles/main.dir/Test.cpp.s
 
 # Object files for target main
 main_OBJECTS = \
@@ -125,7 +125,7 @@ main: CMakeFiles/main.dir/motor.cpp.o
 main: CMakeFiles/main.dir/Test.cpp.o
 main: CMakeFiles/main.dir/build.make
 main: CMakeFiles/main.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/zha-yixuan/Helmet_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/zha-yixuan/Desktop/Helmet_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable main"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/main.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -137,6 +137,6 @@ CMakeFiles/main.dir/clean:
 .PHONY : CMakeFiles/main.dir/clean
 
 CMakeFiles/main.dir/depend:
-	cd /home/zha-yixuan/Helmet_test/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/zha-yixuan/Helmet_test /home/zha-yixuan/Helmet_test /home/zha-yixuan/Helmet_test/build /home/zha-yixuan/Helmet_test/build /home/zha-yixuan/Helmet_test/build/CMakeFiles/main.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/zha-yixuan/Desktop/Helmet_test/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/zha-yixuan/Desktop/Helmet_test /home/zha-yixuan/Desktop/Helmet_test /home/zha-yixuan/Desktop/Helmet_test/build /home/zha-yixuan/Desktop/Helmet_test/build /home/zha-yixuan/Desktop/Helmet_test/build/CMakeFiles/main.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/main.dir/depend
 
