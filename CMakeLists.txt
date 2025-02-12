@@ -3,7 +3,7 @@ project(GpioProject)
 
 
 find_package(PkgConfig REQUIRED)
-# pkg_check_modules(GPIOD REQUIRED libgpiod)
+pkg_check_modules(GPIOD REQUIRED libgpiod)
 
 add_executable(main main.cpp motor.cpp)
 
