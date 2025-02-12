@@ -11,7 +11,7 @@ private:
     gpiod_chip *chipGPIO = nullptr;
     gpiod_line *pins[4] = {nullptr}; 
     int gpio_pins[3]; 
-    int step_delay = 2000; 
+    int step_delay = 1000; 
 
 public:
     bool start(int chipNo, int pin1, int pin2, int pin3, int pin4);
