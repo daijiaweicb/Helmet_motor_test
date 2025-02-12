@@ -1,0 +1,24 @@
+#ifndef _MOTOR_H
+#define _MOTOR_H
+
+#include <iostream>
+#include <gpiod.h>
+#include <unistd.h>  
+
+class StepperMotor
+{
+private:
+    gpiod_chip *chipGPIO = nullptr;
+    gpiod_line *pins[4] = {nullptr}; 
+    int gpio_pins[3]; 
+    int step_delay = 2000; 
+
+public:
+    bool start(int chipNo, int pin1, int pin2, int pin3);
+    void forward(int steps);
+    void backward(int steps);
+    void cleanup();
+    void step(int stepPattern[3]);
+};
+
+#endif
