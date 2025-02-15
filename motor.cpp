@@ -48,41 +48,41 @@ void StepperMotor::step(int stepPattern[4])
 
 void StepperMotor::forward(int steps)
 {
-    int stepSequence[9][4] = {
-        {1, 0, 0, 0},  // IN1
-        {1, 1, 0, 0},  // IN1 + IN2
-        {0, 1, 0, 1},  // IN2
-        {0, 1, 1, 1},  // IN2 + IN3
-        {0, 0, 1, 1},  // IN3
-        {1, 0, 1, 1},   // IN3 + IN1
-        {0, 0, 1, 1},
-        {0, 1, 1, 1},
-        {0, 1, 1, 0}
-    };
+    int stepSequence[8][4] = {
+    {1, 0, 0, 0},  // Step 1
+    {1, 1, 0, 0},  // Step 2
+    {0, 1, 0, 0},  // Step 3
+    {0, 1, 1, 0},  // Step 4
+    {0, 0, 1, 0},  // Step 5
+    {0, 0, 1, 1},  // Step 6
+    {0, 0, 0, 1},  // Step 7
+    {1, 0, 0, 1}   // Step 8
+};
+
 
     for (int i = 0; i < steps; i++)
     {
-        step(stepSequence[i % 9]);
+        step(stepSequence[i % 8]);
     }
 }
 
 void StepperMotor::backward(int steps)
 {
-    int stepSequence[9][4] = {
-        {0, 1, 1, 0},
-        {0, 1, 1, 1},
-        {0, 0, 1, 1},
-        {1, 0, 1, 1},
-        {0, 0, 1, 1},
-        {0, 1, 1, 1},
-        {0, 1, 0, 1},
-        {1, 1, 0, 0},
-        {1, 0, 0, 0},
-    };
+    int stepSequenceReverse[8][4] = {
+    {1, 0, 0, 1},  // Step 1
+    {0, 0, 0, 1},  // Step 2
+    {0, 0, 1, 1},  // Step 3
+    {0, 0, 1, 0},  // Step 4
+    {0, 1, 1, 0},  // Step 5
+    {0, 1, 0, 0},  // Step 6
+    {1, 1, 0, 0},  // Step 7
+    {1, 0, 0, 0}   // Step 8
+};
+
 
     for (int i = 0; i < steps; i++)
     {
-        step(stepSequence[i % 9]);
+        step(stepSequence[i % 8]);
     }
 }
 
