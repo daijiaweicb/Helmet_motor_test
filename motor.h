@@ -10,7 +10,7 @@ class StepperMotor
 private:
     gpiod_chip *chipGPIO = nullptr;
     gpiod_line *pins[4] = {nullptr}; 
-    int gpio_pins[3]; 
+    int gpio_pins[4]; 
     int step_delay = 1000; 
 
 public:
@@ -18,7 +18,7 @@ public:
     void forward(int steps);
     void backward(int steps);
     void cleanup();
-    void step(int stepPattern[3]);
+    void step(int stepPattern[4]);
 };
 
 #endif
