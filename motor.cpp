@@ -37,7 +37,7 @@ bool StepperMotor::start(int chipNo, int pin1, int pin2, int pin3, int pin4)
     return true;
 }
 
-void StepperMotor::step(int stepPattern[3])
+void StepperMotor::step(int stepPattern[4])
 {
     for (int i = 0; i < 4; i++)
     {
