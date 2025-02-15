@@ -82,7 +82,7 @@ void StepperMotor::backward(int steps)
 
     for (int i = 0; i < steps; i++)
     {
-        step(stepSequence[i % 8]);
+        step(stepSequenceReverse[i % 8]);
     }
 }
 
