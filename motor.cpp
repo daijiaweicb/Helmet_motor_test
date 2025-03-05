@@ -16,6 +16,7 @@ bool StepperMotor::start(int chipNo, int pin1, int pin2, int pin3, int pin4)
     gpio_pins[2] = pin3;
     gpio_pins[3] = pin4;
 
+
     for (int i = 0; i < 4; i++)
     {
         pins[i] = gpiod_chip_get_line(chipGPIO, gpio_pins[i]);
